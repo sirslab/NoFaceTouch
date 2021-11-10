@@ -12,8 +12,8 @@ labelling_file = sys.argv[1]
 sensor_file = sys.argv[2]
 split = sys.argv[3]
 
-# python data_processing2.py train0_labelling.txt train0.csv train
-# python data_processing2.py test0_labelling.txt test0.csv test
+# python data_processing.py train0_labelling.txt train0.csv train
+# python data_processing.py test0_labelling.txt test0.csv test
 
 
 def data_selection():
