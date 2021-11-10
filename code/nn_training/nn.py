@@ -140,7 +140,7 @@ def import_preprocessed_folder(path_folder):
 
                 k = k[:-2, :]
 
-            X0 = k[0:k.shape[0] - istanti_finali_scartati, 1:]
+            X0 = k[0:k.shape[0] - discarded_final_instants, 1:]
             n_rows = X0.shape[0]
 
             X_fin = X0[n_rows-seq_length:,  :]
